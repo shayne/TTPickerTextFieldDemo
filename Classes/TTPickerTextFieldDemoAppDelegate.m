@@ -8,9 +8,9 @@
     
     TTURLMap *map = navigator.URLMap;
     
-    [map from:@"tt://test" toViewController:[PickerController class]];
+    [map from:@"tt://picker" toViewController:[PickerController class]];
     
-    [navigator openURL:@"tt://test" animated:NO];
+    [navigator openURL:@"tt://picker" animated:NO];
 }
 
 

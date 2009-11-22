@@ -1,7 +1,4 @@
 #import "Three20/Three20.h"
 
-
-@interface PickerController : UIViewController <UITextFieldDelegate> {
-}
-
+@interface PickerController : UIViewController <UITextFieldDelegate>
 @end

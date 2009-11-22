@@ -112,7 +112,7 @@
 #pragma mark -
 #pragma mark TTModel methods
 
-- (NSMutableArray*)delegates {
+- (NSMutableArray *)delegates {
     if (!_delegates) {
         _delegates = TTCreateNonRetainingArray();
     }

@@ -22,7 +22,7 @@
     scrollView.showsHorizontalScrollIndicator = NO;
     [self.view addSubview:scrollView];
     
-    TTPickerTextField* textField = [[[TTPickerTextField alloc] init] autorelease];
+    TTPickerTextField *textField = [[[TTPickerTextField alloc] init] autorelease];
     textField.dataSource = [[[PickerDataSource alloc] init] autorelease];;
     textField.autocorrectionType = UITextAutocorrectionTypeNo;
     textField.autocapitalizationType = UITextAutocapitalizationTypeNone;
@@ -39,12 +39,13 @@
     label.frame = CGRectInset(label.frame, -2, 0);
     textField.leftView = label;
     textField.leftViewMode = UITextFieldViewModeAlways;
+    [textField becomeFirstResponder];
     
     [scrollView addSubview:textField];
     
     CGFloat y = 0;
     
-    for (UIView* view in scrollView.subviews) {
+    for (UIView *view in scrollView.subviews) {
         view.frame = CGRectMake(0, y, self.view.width, view.height);
         y += view.height;
     }

@@ -11,9 +11,9 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		26E639A610B7D5C6001A3243 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26E639A510B7D5C6001A3243 /* Three20.bundle */; };
-		26E639C610B7D5CF001A3243 /* Prime31.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26E639C510B7D5CF001A3243 /* Prime31.bundle */; };
-		26E639CF10B7D603001A3243 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E639A110B7D5B5001A3243 /* libThree20.a */; };
+		268C43A610B9FDF700AA9517 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 268C43A510B9FDF700AA9517 /* Three20.bundle */; };
+		268C43D110B9FDFE00AA9517 /* Prime31.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 268C43D010B9FDFE00AA9517 /* Prime31.bundle */; };
+		268C43EC10B9FE3C00AA9517 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268C43EB10B9FE3A00AA9517 /* libThree20.a */; };
 		26E639D410B7D613001A3243 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E639D310B7D613001A3243 /* QuartzCore.framework */; };
 		26E63A0B10B7D9D8001A3243 /* PickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E63A0A10B7D9D8001A3243 /* PickerController.m */; };
 		26E63A1A10B7DACD001A3243 /* StatesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E63A1910B7DACD001A3243 /* StatesModel.m */; };
@@ -22,18 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26E639A010B7D5B5001A3243 /* PBXContainerItemProxy */ = {
+		268C43EA10B9FE3A00AA9517 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26E6399C10B7D5B5001A3243 /* Three20.xcodeproj */;
+			containerPortal = 268C43E310B9FE3A00AA9517 /* Three20.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2 /* libThree20.a */;
 			remoteInfo = "Three20-P31";
 		};
-		26E639D010B7D60B001A3243 /* PBXContainerItemProxy */ = {
+		268C43EF10B9FE4400AA9517 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26E6399C10B7D5B5001A3243 /* Three20.xcodeproj */;
+			containerPortal = 268C43E310B9FE3A00AA9517 /* Three20.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2 /* Three20-P31 */;
 			remoteInfo = "Three20-P31";
 		};
 /* End PBXContainerItemProxy section */
@@ -44,11 +44,11 @@
 		1D3623250D0F684500981E51 /* TTPickerTextFieldDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPickerTextFieldDemoAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* TTPickerTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTPickerTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		268C43A510B9FDF700AA9517 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = "three20-P31/src/Three20.bundle"; sourceTree = "<group>"; };
+		268C43D010B9FDFE00AA9517 /* Prime31.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Prime31.bundle; path = "three20-P31/src/P31-Additions/Prime31.bundle"; sourceTree = "<group>"; };
+		268C43E310B9FE3A00AA9517 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = "three20-P31/src/Three20.xcodeproj"; sourceTree = "<group>"; };
 		26ABE47310B8765600F96C7E /* TTPickerTextFieldDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPickerTextFieldDemo_Prefix.pch; sourceTree = "<group>"; };
 		26ABE47410B8766300F96C7E /* TTPickerTextFieldDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TTPickerTextFieldDemo-Info.plist"; sourceTree = "<group>"; };
-		26E6399C10B7D5B5001A3243 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = "../../../../Library/SDKs/three20-P31/src/Three20.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		26E639A510B7D5C6001A3243 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = "../../../../Library/SDKs/three20-P31/src/Three20.bundle"; sourceTree = SOURCE_ROOT; };
-		26E639C510B7D5CF001A3243 /* Prime31.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Prime31.bundle; path = "../../../../Library/SDKs/three20-P31/src/P31-Additions/Prime31.bundle"; sourceTree = SOURCE_ROOT; };
 		26E639D310B7D613001A3243 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		26E63A0910B7D9D8001A3243 /* PickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerController.h; sourceTree = "<group>"; };
 		26E63A0A10B7D9D8001A3243 /* PickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerController.m; sourceTree = "<group>"; };
@@ -68,8 +68,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
-				26E639CF10B7D603001A3243 /* libThree20.a in Frameworks */,
 				26E639D410B7D613001A3243 /* QuartzCore.framework in Frameworks */,
+				268C43EC10B9FE3C00AA9517 /* libThree20.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +99,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26E6399D10B7D5B5001A3243 /* Products */ = {
+		268C43E410B9FE3A00AA9517 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26E639A110B7D5B5001A3243 /* libThree20.a */,
+				268C43EB10B9FE3A00AA9517 /* libThree20.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				26E6399C10B7D5B5001A3243 /* Three20.xcodeproj */,
+				268C43E310B9FE3A00AA9517 /* Three20.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -132,9 +132,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				268C43D010B9FDFE00AA9517 /* Prime31.bundle */,
+				268C43A510B9FDF700AA9517 /* Three20.bundle */,
 				26ABE47410B8766300F96C7E /* TTPickerTextFieldDemo-Info.plist */,
-				26E639C510B7D5CF001A3243 /* Prime31.bundle */,
-				26E639A510B7D5C6001A3243 /* Three20.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				26E639D110B7D60B001A3243 /* PBXTargetDependency */,
+				268C43F010B9FE4400AA9517 /* PBXTargetDependency */,
 			);
 			name = TTPickerTextFieldDemo;
 			productName = PickerTextDemo;
@@ -183,8 +183,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 26E6399D10B7D5B5001A3243 /* Products */;
-					ProjectRef = 26E6399C10B7D5B5001A3243 /* Three20.xcodeproj */;
+					ProductGroup = 268C43E410B9FE3A00AA9517 /* Products */;
+					ProjectRef = 268C43E310B9FE3A00AA9517 /* Three20.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -195,11 +195,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		26E639A110B7D5B5001A3243 /* libThree20.a */ = {
+		268C43EB10B9FE3A00AA9517 /* libThree20.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libThree20.a;
-			remoteRef = 26E639A010B7D5B5001A3243 /* PBXContainerItemProxy */;
+			remoteRef = 268C43EA10B9FE3A00AA9517 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -209,8 +209,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E639A610B7D5C6001A3243 /* Three20.bundle in Resources */,
-				26E639C610B7D5CF001A3243 /* Prime31.bundle in Resources */,
+				268C43A610B9FDF700AA9517 /* Three20.bundle in Resources */,
+				268C43D110B9FDFE00AA9517 /* Prime31.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,10 +232,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		26E639D110B7D60B001A3243 /* PBXTargetDependency */ = {
+		268C43F010B9FE4400AA9517 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Three20-P31";
-			targetProxy = 26E639D010B7D60B001A3243 /* PBXContainerItemProxy */;
+			targetProxy = 268C43EF10B9FE4400AA9517 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -274,7 +274,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "~/Library/SDKs/three20-P31/src/**";
+				HEADER_SEARCH_PATHS = "three20-P31/src/**";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -292,6 +292,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "three20-P31/src/**";
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.1.2;
 			};

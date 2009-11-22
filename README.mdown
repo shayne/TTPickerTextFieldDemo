@@ -5,8 +5,16 @@ I put together this demo to demonstrate the ability to implement a [TTPickerText
 
 I hope someone finds this useful as we all know, the [Three20][] project could use more documentation! :)
 
+Building TTPickerTextFieldDemo
+==============================
+The Three20 libary (AppStore safe, see: [uprise78/three20-P31][]) is configured to point to the included Git submodule, "three20-P31/" in the project's root directory. After cloning the project, run the following commands to initialize and pull the submodule into place.
+
+	git submodule init
+	git submodule update
+
 [TTPickerTextField]: http://github.com/facebook/three20/blob/master/src/Three20/TTPickerTextField.h
 [TTMessageController]: http://github.com/facebook/three20/blob/master/src/Three20/TTMessageController.h 
 [TTModel]: http://github.com/facebook/three20/blob/master/src/Three20/TTModel.h
 [TTSectionedDataSource]: http://github.com/facebook/three20/blob/master/src/Three20/TTSectionedDataSource.h
 [Three20]: http://github.com/facebook/three20/
+[uprise78/Three20-P31]: http://github.com/uprise78/three20-P31/

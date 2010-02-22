@@ -33,7 +33,7 @@
     
     NSMutableDictionary *groups = [NSMutableDictionary dictionary];
     for (NSString *name in _states.names) {
-        NSString *letter = [NSString stringWithFormat:@"%c", [name characterAtIndex:0]];
+        NSString *letter = [name substringToIndex:1];
         NSMutableArray *section = [groups objectForKey:letter];
         if (!section) {
             section = [NSMutableArray array];

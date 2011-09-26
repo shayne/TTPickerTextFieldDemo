@@ -10,7 +10,7 @@
     
     [map from:@"tt://picker" toViewController:[PickerController class]];
     
-    [navigator openURL:@"tt://picker" animated:NO];
+    [navigator openURLAction:[TTURLAction actionWithURLPath:@"tt://picker"]];
 }
 
 

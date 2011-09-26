@@ -1,4 +1,5 @@
 #import "Three20/Three20.h"
+#import "Three20/Three20+Additions.h"
 
 @interface StatesModel: NSObject <TTModel> {
     NSMutableArray *_delegates;

@@ -46,11 +46,11 @@
     CGFloat y = 0;
     
     for (UIView *view in scrollView.subviews) {
-        view.frame = CGRectMake(0, y, self.view.width, view.height);
-        y += view.height;
+        view.frame = CGRectMake(0, y, self.view.frame.size.width, view.frame.size.height);
+        y += view.frame.size.height;
     }
     
-    scrollView.contentSize = CGSizeMake(scrollView.width, y);
+    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, y);
 }
 
 @end
